@@ -1,0 +1,26 @@
+<!--
+  Generated template for the CadastraAutorPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>cadastraAutor</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+      <ion-label floating>Nome</ion-label>
+      <ion-input type="text" [(ngModel)]="autor.nome"></ion-input>
+  </ion-item>
+    <ion-item>
+      <ion-label floating>Sexo</ion-label>
+      <ion-input type="text" [(ngModel)]="autor.sexo"></ion-input>
+  </ion-item>
+      <button io-button full (click)="saveAutor(autor)">Cadastrar</button>
+</ion-content>

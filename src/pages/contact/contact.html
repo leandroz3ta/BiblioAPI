@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Autores
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+      <p>
+      <button ion-button full (click)="cadastraAutor(autor)">Cadastrar Autor</button>
+    </p>
+  <ion-list>
+    <button ion-item *ngFor="let a of autores" (click)="getAutorInfo(a.id)">
+      {{a.nome}}
+    </button>
+  </ion-list>
+</ion-content>
