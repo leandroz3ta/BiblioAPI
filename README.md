@@ -1,2 +1,2 @@
-# BiblioAPI
-API Rest utilizando Spring Framework
+# BiblioAPIFront
+API Rest utilizando frontend Ionic.
